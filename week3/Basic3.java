@@ -7,13 +7,13 @@ public class Basic3 {
 		Scanner scn = new Scanner(System.in);
 		
 		String name;
-		System.out.print("ÀÌ¸§À» ÀÔ·Â : ");
+		System.out.print("ì´ë¦„ì„ ì…ë ¥ : ");
 		name = scn.next();
-		if(name.equals("È«±æµ¿")) {
-			System.out.printf("ÀÌ¸§ÀÌ %s ÀÔ´Ï´Ù.\n",name);
+		if(name.equals("í™ê¸¸ë™")) {
+			System.out.printf("ì´ë¦„ì´ %s ì…ë‹ˆë‹¤.\n", name);
 		}
 		else {
-			System.out.printf("%sÀº È«±æµ¿ÀÌ ¾Æ´Õ´Ï´Ù.\n",name);
+			System.out.printf("%sì€ í™ê¸¸ë™ì´ ì•„ë‹™ë‹ˆë‹¤.\n", name);
 		}
 		scn.close();
 	}
