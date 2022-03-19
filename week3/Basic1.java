@@ -28,9 +28,9 @@ class BasicEx{
 
 	@Override
 	public String toString() {
-		return "BasicEx [a=" + a + ", b=" + b + ", c=" + c + "]";
+		return "BasicEx [a = " + a + ", b = " + b + ", c = " + c + "]";
 	}
-	//Arrya가 클래그 아닌가?
+	
 
 	
 }
@@ -40,11 +40,11 @@ public class Basic1 {
 		BasicEx b = new BasicEx(1);
 		System.out.println(b);
 		outer:
-		for(int i=0;i<10;i++) {
+		for(int i = 0; i < 10; i++) {
 			inner:
-			for(int j=0; j<10;j++) {
+			for(int j = 0; j < 10; j++) {
 				if(i+j==5) break outer;
-				System.out.print("i="+i+", j="+j+" ");
+				System.out.print("i = " + i + ", j = " + j + " ");
 			}
 			System.out.println();
 		}
